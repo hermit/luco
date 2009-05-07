@@ -1,0 +1,6 @@
+*~
+*.tmp
+*.suo
+*.exe
+bin
+obj
