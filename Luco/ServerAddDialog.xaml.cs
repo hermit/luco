@@ -9,28 +9,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Luco
 {
   /// <summary>
-  /// MainWindow.xaml の相互作用ロジック
+  /// ServerAddDialog.xaml の相互作用ロジック
   /// </summary>
-  public partial class MainWindow : Window
+  public partial class ServerAddDialog : Window
   {
-    public MainWindow()
+    public ServerAddDialog()
     {
       InitializeComponent();
     }
 
-    private void ServerAdd_Click(object sender, RoutedEventArgs e)
+    private void okButton_Click(object sender, RoutedEventArgs e)
     {
-      var dialog = new ServerAddDialog();
-      dialog.Owner = this;
-      if (dialog.ShowDialog() == true)
-      {
-      }
+      DialogResult = true;
     }
   }
 }

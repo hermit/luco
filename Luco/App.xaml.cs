@@ -14,9 +14,8 @@ namespace Luco
   {
     public App()
     {
-      var entry1 = Luco.Properties.Settings.Default.entry1;
-      //var entry2 = Luco.Properties.Settings.Default.entry2;
-      //
+      // セーブデータを読む
+      //var entry1 = Luco.Properties.Settings.Default.entry1;
     }
 
     private void App_Exit(object sender, ExitEventArgs e)
