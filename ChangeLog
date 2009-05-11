@@ -1,0 +1,16 @@
+2009-05-12  Akio Kitano  <hermit@koka-in.org>
+
+	* ServerAddDialog.xaml, ServerAddDialog.xaml.cs: Added.
+
+	* MainWindow.xaml.cs (Luco):
+	Add ServerAdd_Click.
+
+	* MainWindow.xaml:
+	Add menu.
+	Use DockPanel instead of Grid.
+
+	* Luco.csproj:
+	Add ServerAddDialog.xaml and ServerAddDialog.xaml.cs
+
+	* App.xaml.cs (Luco):
+	セーブデータを読むのはまだ使わないのでコメントアウト
